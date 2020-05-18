@@ -1,0 +1,28 @@
+.footer {
+    background-color: black;
+    &__container {
+        display: flex;
+        padding: 2rem 0;
+    }
+    &__logo-block {
+        display: flex;
+    }
+    &__logo {
+        height: 4rem;
+    }
+    &__company-name {
+        color: white;
+        text-align: center;
+        width: 4rem;
+        line-height: 2rem;
+    }
+    &__navigation-block {}
+    &__buttons-block {}
+}
+
+.polygon {
+    width: 100%;
+    height: 2rem;
+    background-color: white;
+    clip-path: polygon(50% 90%, 0 0, 100% 0);
+}

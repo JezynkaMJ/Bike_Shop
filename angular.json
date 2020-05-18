@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bike-shop"
+    }
+  },
+  "defaultProject": "bike-shop",
+  "cli": {
+    "analytics": "6c867a99-7b7d-4e85-8f62-8bb36313c02a"
+  }
 }

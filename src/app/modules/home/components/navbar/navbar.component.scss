@@ -1,0 +1,33 @@
+.nav {
+    &__container {
+        display: flex;
+        display: flex;
+        align-items: center;
+        padding: 2rem 0;
+    }
+    &__logo-holder {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    &__logo {
+        height: 3rem;
+    }
+    &__company-name {
+        color: black;
+    }
+    &__menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    &__list {
+        display: flex;
+    }
+    &__list-item {
+        margin: 0 2rem;
+    }
+    &__buttons {
+        // margin-left: auto;
+    }
+}
