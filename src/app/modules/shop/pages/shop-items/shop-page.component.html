@@ -1,0 +1,70 @@
+<div class="shop">
+    <h2 class="title">Choose your bike type</h2>
+    <div class="container card__container">
+      <a [routerLink]="[ 'details', {type: 'road'} ]">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>Road Bikes</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="assets/images/roadBike.jpg" alt="thriatlon bike" />
+          <mat-card-content>
+            <p>
+              Engineered to climb, corner and descend with efficiency and speed, a road
+              bike gives you a competitive edge. Whether you’re racing, training or
+              going for the KOM, these men’s road bikes do it all, and do it faster.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+          </mat-card-actions>
+        </mat-card>
+      </a>
+
+          <mat-card class="card">
+            <mat-card-header>
+              <mat-card-title>Trekking Bikes</mat-card-title>
+            </mat-card-header>
+            <img
+              mat-card-image
+              src="assets/images/trekkingBike.jpg"
+              alt="thriatlon bike"
+            />
+            <mat-card-content>
+              <p>
+                Roll through the city with speed and style on one of our men’s city
+                commuter bikes. Whether you’re beating the traffic in urban environments
+                or taking the long route for fitness and fun, these men’s city bikes put
+                some adventure into your daily routine.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+          <mat-card class="card">
+            <mat-card-header>
+              <mat-card-title>Triathlon Bikes</mat-card-title>
+            </mat-card-header>
+            <img
+              mat-card-image
+              src="assets/images/triathlonBike.jpg"
+              alt="thriatlon bike"
+            />
+            <mat-card-content>
+              <p>
+                For race-ready aerodynamics and performance, choose the perfect men’s
+                triathlon bike to suit your individual needs. Engineered for speed,
+                comfort and fit, our men’s tri bikes can help you clock a new PR.
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+    </div>
+</div>
+
+

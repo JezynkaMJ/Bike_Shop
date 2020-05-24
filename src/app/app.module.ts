@@ -8,6 +8,7 @@ import { HomeModule } from './modules/home/home.module';
 import { ShopModule } from './modules/shop/shop.module';
 import { AppRoutingModule } from './core/modules/routing/routing.module';
 import { SharedModule } from './shared/shared.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SharedModule } from './shared/shared.module';
     HomeModule,
     ShopModule,
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

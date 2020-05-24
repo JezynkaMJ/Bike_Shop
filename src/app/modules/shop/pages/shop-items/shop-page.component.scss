@@ -1,0 +1,17 @@
+.card {
+    width: 20rem;
+}
+.card__container {
+    display: flex;
+    justify-content: space-around;
+    margin: 15vh auto;
+}
+.title {
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 15rem;
+    font-size: 4rem;
+    line-height: 15rem;
+    padding: 0 10%;
+}

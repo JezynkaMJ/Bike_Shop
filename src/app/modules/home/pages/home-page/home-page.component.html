@@ -1,16 +1,21 @@
-  <bs-intro-basic url="/assets/images/bike.jpg">
-    <ng-container>
-      <h1 class="intro__title">Bikes</h1>
-      <span class="intro__description"
-        >Chose your bike from various bikes avaliable in our store</span
-      >
-    </ng-container>
-  </bs-intro-basic>
-  <bs-intro-basic [reverse]="true" url="/assets/images/gears.jpg">
-    <ng-container>
-      <h1 class="intro__title">Accessiories</h1>
-      <span class="intro__description"
-        >Choose best accessories to upgrade your bike</span
-      >
-    </ng-container>
-  </bs-intro-basic>
+  <a [routerLink]="'/bikes'">
+    <bs-intro-basic url="/assets/images/bike.jpg">
+      <ng-container>
+        <h1 class="intro__title">Bikes</h1>
+        <span class="intro__description"
+          >Chose your bike from various bikes avaliable in our store</span
+        >
+      </ng-container>
+    </bs-intro-basic></a>
+
+    <a [routerLink]="'/accessories'">
+      <bs-intro-basic [reverse]="true" url="/assets/images/gears.jpg">
+        <ng-container>
+          <h1 class="intro__title">Accessiories</h1>
+          <span class="intro__description"
+            >Choose best accessories to upgrade your bike</span
+          >
+        </ng-container>
+      </bs-intro-basic>
+    </a>
+
